@@ -1,0 +1,16 @@
+.slideshow-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+    button{
+        border: none;
+        background-color: white;
+        height: fit-content;
+        margin: auto;
+        font-size: 40px;
+    
+    }
+
+}

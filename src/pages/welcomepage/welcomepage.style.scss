@@ -1,0 +1,26 @@
+main{
+    .homepage-sec{
+        border-bottom: 1px solid rgb(33,33,33);
+        padding: 1.4rem 0;
+        margin-bottom: 50px;
+
+
+        .article-homepage{
+            line-height: 1.6rem;
+            
+            h2{
+                width: 60%;
+                margin: auto;
+                font-size: 25px;
+                letter-spacing: 1px;
+                padding: 2.0rem 0;
+                margin-bottom: 50px;
+            }
+            p{
+                text-align: left;
+                margin: 25px 0 ;
+            }
+        }
+    }
+    
+}

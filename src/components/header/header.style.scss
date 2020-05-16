@@ -1,0 +1,59 @@
+.header-container{
+
+    .title-container{
+        border-bottom: 1px solid rgb(33,33,33);
+        margin: 7px 0;
+
+        .title{
+            padding-top: 1.2em;
+
+        }
+
+        .sub-title{
+            position: relative;
+            top: -40px;
+        }
+    }
+
+    .main-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-top: 1px solid rgb(33,33,33);
+        padding: 1.3em 0;
+        border-bottom: 1px solid rgb(33,33,33);
+        margin-bottom: 30px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .title{
+            font-size: 45px;
+        }
+
+        .sub-title{
+            font-size: 15px;
+            
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .title{
+            font-size: 60px;
+        }
+
+        .sub-title{
+            font-size: 20px;
+        }
+    }
+    
+
+}
+
+
